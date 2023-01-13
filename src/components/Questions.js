@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/questionsFrontEnd.css'
 import '../styles/answersFrontEnd.css'
-import AnswersFrontEnd from './AnswersFrontEnd'
+import AnswersFrontEnd from './Answers'
 import { useContext } from 'react';
 import { AppContext } from '../contexts/app';
 

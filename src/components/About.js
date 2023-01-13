@@ -12,8 +12,8 @@ const handleGoHome = () => {
   <div>
     <button className='btn' onClick={handleGoHome}>Go Home</button>
   </div>
-    <h1>inspired by Command Shift</h1>
-    <h2>for more information, please follow</h2>
+    <h1>Inspired by 'Command Shift'</h1>
+    <h2>For more information about s.QUIZ.me, please follow</h2>
     <a className='link' href='https://github.com/Claudiu-Petre/squizme'>Claudiu Petre</a>
     <br></br>
     <p>and</p>

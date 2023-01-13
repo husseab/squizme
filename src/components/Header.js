@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <nav className='nav'>
-        <div className='name'>s.QUIZ.me!</div>
+        <div className='name'>s.Quiz.me</div>
 
         <ul>
 
@@ -22,8 +22,9 @@ const Header = () => {
 
       </nav>
       
-    <h1> for the bravest!</h1>
-    <h2>give it a try!</h2>
+    <h1> For the bravest!</h1>
+    <h2>Give it a try!</h2>
+    <footer>&copy; Claudiu Petre and Abdikarim Hussein</footer>
     </>
 
 

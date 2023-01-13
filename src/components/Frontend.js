@@ -1,7 +1,7 @@
 import React, { useContext, useEffect} from 'react'
 import {useNavigate} from 'react-router-dom';
 import { AppContext } from '../contexts/app';
-import QuestionsFrontEnd from './QuestionsFrontEnd';
+import QuestionsFrontEnd from './Questions';
 
 
 const Frontend = () => {
@@ -41,9 +41,9 @@ const Frontend = () => {
       
           {appState.showResults && (
             <div className='results'>
-              <div className='well-done'>Well done</div>
+              <div className='well-done'>Well done!</div>
               <div className='results-info'>
-                <div>You have been s.quiz.ed</div>
+                <div>You have been s.Quiz.ed</div>
                 <br></br>
                 <div>Performance: {appState.correctAnswerCount} of {appState.questions.length}</div>
               </div>
