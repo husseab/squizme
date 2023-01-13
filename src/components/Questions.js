@@ -1,7 +1,7 @@
 import React from 'react'
-import '../styles/questionsFrontEnd.css'
-import '../styles/answersFrontEnd.css'
-import AnswersFrontEnd from './Answers'
+import '../styles/questions.css'
+import '../styles/answers.css'
+import Answers from './Answers'
 import { useContext } from 'react';
 import { AppContext } from '../contexts/app';
 
@@ -21,7 +21,7 @@ const QuestionsFrontEnd = () => {
             {appState.answers.map((answer, index)  => {
                 const correctAnswerText = appState.answers.find(answer => answer.result === 'correct').answer;
                 return (
-                <AnswersFrontEnd
+                <Answers
                 answerText={answer.answer} 
                 key={index}
                 index={index} 

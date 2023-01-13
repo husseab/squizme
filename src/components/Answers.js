@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/answersFrontEnd.css'
+import '../styles/answers.css'
 
 const AnswersFrontEnd = ({answerText, onSelectAnswer, index, currentAnswer, correctAnswer}) => {
 
