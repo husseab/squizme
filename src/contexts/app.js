@@ -55,6 +55,7 @@ const initialState = {
      
   };
 
+  // create Context at app level.
 export const AppContext = createContext();
 
 export const AppProvider = ({children}) => {
