@@ -1,4 +1,5 @@
 import React, { useContext, useEffect} from 'react'
+import {useNavigate} from 'react-router-dom';
 import { AppContext } from '../contexts/app';
 import QuestionsFrontEnd from './Questions';
 
@@ -7,7 +8,10 @@ const Frontend = () => {
 
   const [appState, dispatch] = useContext(AppContext);
 
-
+  const navigate =useNavigate();
+    const handleGoBack = () => {
+    navigate(-1);
+    }
 
   const apiUrl =  'https://javascript-quiz.onrender.com/questions'
 
@@ -29,7 +33,9 @@ const Frontend = () => {
 
   return (
     <>
-
+    <div>
+        <button className='btn' onClick={handleGoBack}>Go Home</button>
+      </div>
     <div className='container'>
       <div className="app">
       
