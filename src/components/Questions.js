@@ -12,10 +12,10 @@ const QuestionsFrontEnd = () => {
     
   return (
 <div>
-    <div className='question'>
+    <h2 className='question'>
         {currentQuestion.question}
         
-    </div>
+    </h2>
         <div className='answers'>
 
             {appState.answers.map((answer, index)  => {
