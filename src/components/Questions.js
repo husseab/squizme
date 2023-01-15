@@ -12,7 +12,7 @@ const QuestionsFrontEnd = () => {
     
   return (
 <div>
-    <div id='question'>
+    <div className='question'>
         {currentQuestion.question}
         
     </div>
